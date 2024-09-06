@@ -2,14 +2,14 @@
 
 ### This is personal script i use to clone and start the android_build_env script from [Akil Narang](https://github.com/akhilnarang) in one shot.
 
-##### First clone the scripts repo
+##### First open a Terminal in home directory and clone the scripts repo
 
 
 ```bash
   git clone https://github.com/ashoss/scripts.git scripts
 ```
 
-##### Then open a Terminal and start the script ( Note: it may ask for your password )
+##### Then start the script ( Note: it may ask for your password )
 
 
 ```bash
