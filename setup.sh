@@ -21,14 +21,14 @@ check_distro() {
   fi
 }
 
-# Get the user's distribution
+# Get the user's distribution type
 distro=$(check_distro)
 
 # Run different scripts based on the distribution output
 case "$distro" in
   "debian")
     sudo apt update
-    sleep 10
+    sleep 5
     sudo apt upgrade -y
     bash setup/android_build_env.sh
     ;;
@@ -42,6 +42,6 @@ case "$distro" in
     ;;
 esac
 
-echo "finished"
+echo "----- finished -----"
 
 
